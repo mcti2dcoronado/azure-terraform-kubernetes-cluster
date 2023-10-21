@@ -15,7 +15,7 @@ locals{
         }
       ]
     ])
-
+}
 
 
 resource "azurerm_resource_group" "mcit" {
