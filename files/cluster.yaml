@@ -1,0 +1,5 @@
+kubernetes_list:
+  - name: MontrealCollegeCluster1
+  - name: MontrealCollegeCluster2
+  - name: MontrealCollegeCluster3
+  - name: MontrealCollegeCluster4
