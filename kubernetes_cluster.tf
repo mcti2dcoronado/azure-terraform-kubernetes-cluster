@@ -1,5 +1,5 @@
 resource "azurerm_kubernetes_cluster" "MontrealCollege" {
-  for_each            = { for cluster in local.cluster_names : cluster => cluster }
+  for_each            = { for index,cluster in local.cluster_names : index => cluster }
   name                = "${var.convention}-${each.key}"
   location            = azurerm_resource_group.mcit.location
   resource_group_name = azurerm_resource_group.mcit.name
