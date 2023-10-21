@@ -1,5 +1,5 @@
 locals {
-  cluster_names = ["MontrealCollegeCluster1","MontrealCollegeCluster1","MontrealCollegeCluster2","MontrealCollegeCluster3","MontrealCollegeCluster4"]
+  cluster_names = ["MontrealCollegeCluster1","MontrealCollegeCluster2","MontrealCollegeCluster3","MontrealCollegeCluster4"]
 
 }
 
